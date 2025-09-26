@@ -11,7 +11,7 @@ const Menu = () => {
   }, []);
 
   //   const customerData = useSelector((state) => state.customer);
-
+  // dslelsllek
   return (
     <section className="bg-[#E7EAE7]  h-screen tex- overflow-hidden flex gap-3">
       <div className="w-20 md:w-64 flex-shrink-0">
@@ -30,6 +30,7 @@ const Menu = () => {
         {/* Customer Info */}
         <CustomerInfo />
         <hr className="border-[#2a2a2a2c] border-t-2" />
+        <hr />
         {/* Cart Items */}
         <CartInfo />
         <hr className="border-[#2a2a2a21] border-t-2" />
